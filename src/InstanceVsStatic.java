@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Main {
+public class InstanceVsStatic {
     int[][] arr = {{0, 1, 2, 3}, {2, 4, 6, 8}, {42, 16, 642, 51221}};
     static int[][] arrStatic = {{0, 1, 2, 3}, {2, 4, 6, 8}, {42, 16, 642, 51221}};
 
@@ -18,7 +18,7 @@ public class Main {
         // -> static 메소드는 인스턴스 생성 없이 클래스에서 바로 호출할 수 있지만,
         // static 메소드가 인자를 받을 경우, 인자 또한 static 이어야 한다.
 
-        Main instanceMain = new Main();
+        InstanceVsStatic instanceMain = new InstanceVsStatic();
 
         instanceMain.returnOneRowInstance(); //인스턴스 생성 후 호출
         instanceMain.returnOneRowStaticNoArugment(); // static 메소드를 인스턴스 참조를 이용하여 호출할려 함. 가능하지만, 불필요한
@@ -96,14 +96,3 @@ public class Main {
 
 
 
-/*
-    1. 2차원 배열의 행 반환하기
-    2. 2차원 배열의 열 반환하기
-    3. 2차원 배열의 행, 열 길이 반환하기
-    4. 행만 추출하여 반환하기
-    5. 열만 추출하여 반환하기
-    6. 행의 합, 열의 합 구하기
-    7. 문자열로 반환하기
-    8. 모든 요소 꺼내서 배열에 넣기
-    9. 위의 모든 걸 스트림으로 해보기
- */

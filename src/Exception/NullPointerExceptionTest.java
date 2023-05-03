@@ -1,3 +1,5 @@
+package Exception;
+
 public class NullPointerExceptionTest {
     public static void main(String[] args) {
         int[] intArray = null;

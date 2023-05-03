@@ -1,3 +1,5 @@
+package Instance;
+
 import java.util.Arrays;
 
 public class InstanceVsStatic {

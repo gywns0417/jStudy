@@ -1,3 +1,5 @@
+package Enum;
+
 public class EnumTest {
     public static void main(String[] args){
         EnumExample today = EnumExample.SUNDAY;

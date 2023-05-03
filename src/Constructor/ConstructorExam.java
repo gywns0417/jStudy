@@ -1,3 +1,5 @@
+package Constructor;
+
 public class ConstructorExam {
     String nation = "대한민국";
     String name;

@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2db4cff1-aa35-4e67-b0be-0b79aced42e9" name="Changes" comment="instance, static 차이 검증">
-      <change afterPath="$PROJECT_DIR$/src/MultiDimensionalArray.java" afterDir="false" />
+    <list default="true" id="2db4cff1-aa35-4e67-b0be-0b79aced42e9" name="Changes" comment="this. 사용 예제">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Static/StaticMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Static/StaticMemberCall.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InstanceVsStatic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,12 +18,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/azul-17.0.6/Contents/Home/lib/src.zip!/java.base/java/io/PrintStream.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -37,11 +42,14 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/wang/Desktop/Java Coding Practice/jStudy&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -55,6 +63,14 @@
       <updated>1681456933986</updated>
       <workItem from="1681456936505" duration="7418000" />
       <workItem from="1681711981874" duration="19404000" />
+      <workItem from="1682074936420" duration="776000" />
+      <workItem from="1682319526062" duration="12000" />
+      <workItem from="1682329534900" duration="2470000" />
+      <workItem from="1682403665504" duration="2485000" />
+      <workItem from="1682580089209" duration="2470000" />
+      <workItem from="1683013562127" duration="3416000" />
+      <workItem from="1683093367026" duration="5524000" />
+      <workItem from="1683184273416" duration="2239000" />
     </task>
     <task id="LOCAL-00001" summary="instance, static 차이 검증">
       <created>1681714350432</created>
@@ -63,7 +79,84 @@
       <option name="project" value="LOCAL" />
       <updated>1681714350432</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="NullPointerException 예제 테스트">
+      <created>1682075084049</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682075084049</updated>
+    </task>
+    <task id="LOCAL-00003" summary="String 기본 메소드 예제">
+      <created>1682329948674</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682329948674</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Enum 타입 예제, 테스트">
+      <created>1682333582612</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682333582612</updated>
+    </task>
+    <task id="LOCAL-00005" summary="생성자, this 예제">
+      <created>1682580316829</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682580316829</updated>
+    </task>
+    <task id="LOCAL-00006" summary="생성자, this 예제 2">
+      <created>1682580545295</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1682580545295</updated>
+    </task>
+    <task id="LOCAL-00007" summary="생성자 오버로딩 및 생성자 호출 예제 테스트">
+      <created>1682582515027</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1682582515027</updated>
+    </task>
+    <task id="LOCAL-00008" summary="클래스, 메소드 외부 객체에서 호출 테스트 예제">
+      <created>1683016439705</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1683016439706</updated>
+    </task>
+    <task id="LOCAL-00009" summary="생성자 오버로딩을 사용한 외부 객체 호출 예제">
+      <created>1683016909493</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1683016909493</updated>
+    </task>
+    <task id="LOCAL-00010" summary="메소드 오버로딩 예제, 리턴문 예제, 가변길이 매개변수 예제 작성, 패키지별 전체 리팩토링">
+      <created>1683114683392</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1683114683392</updated>
+    </task>
+    <task id="LOCAL-00011" summary="인스턴스 멤버 선언 및 사용 예제">
+      <created>1683184909529</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1683184909529</updated>
+    </task>
+    <task id="LOCAL-00012" summary="this. 사용 예제">
+      <created>1683186807197</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1683186807197</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,6 +175,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="instance, static 차이 검증" />
-    <option name="LAST_COMMIT_MESSAGE" value="instance, static 차이 검증" />
+    <MESSAGE value="NullPointerException 예제 테스트" />
+    <MESSAGE value="String 기본 메소드 예제" />
+    <MESSAGE value="Enum 타입 예제, 테스트" />
+    <MESSAGE value="생성자, this 예제" />
+    <MESSAGE value="생성자, this 예제 2" />
+    <MESSAGE value="생성자 오버로딩 및 생성자 호출 예제 테스트" />
+    <MESSAGE value="클래스, 메소드 외부 객체에서 호출 테스트 예제" />
+    <MESSAGE value="생성자 오버로딩을 사용한 외부 객체 호출 예제" />
+    <MESSAGE value="메소드 오버로딩 예제, 리턴문 예제, 가변길이 매개변수 예제 작성, 패키지별 전체 리팩토링" />
+    <MESSAGE value="인스턴스 멤버 선언 및 사용 예제" />
+    <MESSAGE value="this. 사용 예제" />
+    <option name="LAST_COMMIT_MESSAGE" value="this. 사용 예제" />
   </component>
 </project>

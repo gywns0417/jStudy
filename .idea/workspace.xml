@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2db4cff1-aa35-4e67-b0be-0b79aced42e9" name="Changes" comment="this. 사용 예제">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Static/StaticMember.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Static/StaticMemberCall.java" afterDir="false" />
+    <list default="true" id="2db4cff1-aa35-4e67-b0be-0b79aced42e9" name="Changes" comment="정적 멤버 이용 예제">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +67,10 @@
       <workItem from="1682580089209" duration="2470000" />
       <workItem from="1683013562127" duration="3416000" />
       <workItem from="1683093367026" duration="5524000" />
-      <workItem from="1683184273416" duration="2239000" />
+      <workItem from="1683184273416" duration="2258000" />
+      <workItem from="1683284758973" duration="20000" />
+      <workItem from="1683284786292" duration="609000" />
+      <workItem from="1683531422970" duration="3000" />
     </task>
     <task id="LOCAL-00001" summary="instance, static 차이 검증">
       <created>1681714350432</created>
@@ -156,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683186807197</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="정적 멤버 이용 예제">
+      <created>1683186885138</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1683186885138</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +193,7 @@
     <MESSAGE value="메소드 오버로딩 예제, 리턴문 예제, 가변길이 매개변수 예제 작성, 패키지별 전체 리팩토링" />
     <MESSAGE value="인스턴스 멤버 선언 및 사용 예제" />
     <MESSAGE value="this. 사용 예제" />
-    <option name="LAST_COMMIT_MESSAGE" value="this. 사용 예제" />
+    <MESSAGE value="정적 멤버 이용 예제" />
+    <option name="LAST_COMMIT_MESSAGE" value="정적 멤버 이용 예제" />
   </component>
 </project>

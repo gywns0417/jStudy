@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2db4cff1-aa35-4e67-b0be-0b79aced42e9" name="Changes" comment="정적 멤버 이용 예제">
+    <list default="true" id="2db4cff1-aa35-4e67-b0be-0b79aced42e9" name="Changes" comment="확인문제 - Member 기본 클래스들 구현">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q13/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q13/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q13/MemberLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q13/MemberLogin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +73,9 @@
       <workItem from="1683284758973" duration="20000" />
       <workItem from="1683284786292" duration="609000" />
       <workItem from="1683531422970" duration="3000" />
+      <workItem from="1683619468155" duration="946000" />
+      <workItem from="1683783741456" duration="6340000" />
+      <workItem from="1684235708793" duration="632000" />
     </task>
     <task id="LOCAL-00001" summary="instance, static 차이 검증">
       <created>1681714350432</created>
@@ -163,7 +168,42 @@
       <option name="project" value="LOCAL" />
       <updated>1683186885138</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="클래스 접근 제한 예제">
+      <created>1683619817126</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1683619817126</updated>
+    </task>
+    <task id="LOCAL-00015" summary="생성자, 필드, 메소드 접근 제한자 예제">
+      <created>1683785736083</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1683785736083</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Getter, Setter 예제">
+      <created>1683789214920</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1683789214920</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Singleton Pattern 예제">
+      <created>1683790322643</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1683790322643</updated>
+    </task>
+    <task id="LOCAL-00018" summary="확인문제 - Member 기본 클래스들 구현">
+      <created>1683791839579</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1683791839579</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +234,58 @@
     <MESSAGE value="인스턴스 멤버 선언 및 사용 예제" />
     <MESSAGE value="this. 사용 예제" />
     <MESSAGE value="정적 멤버 이용 예제" />
-    <option name="LAST_COMMIT_MESSAGE" value="정적 멤버 이용 예제" />
+    <MESSAGE value="클래스 접근 제한 예제" />
+    <MESSAGE value="생성자, 필드, 메소드 접근 제한자 예제" />
+    <MESSAGE value="Getter, Setter 예제" />
+    <MESSAGE value="Singleton Pattern 예제" />
+    <MESSAGE value="확인문제 - Member 기본 클래스들 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="확인문제 - Member 기본 클래스들 구현" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Q13/MemberLogin.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Q13/MemberLogin.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Q13/MemberLogin.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Q13/MemberLogin.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/Q13/MemberLogin.java</url>
+          <line>6</line>
+          <properties field="password" class="Q13.MemberLogin" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/Q13/MemberLogin.java</url>
+          <line>7</line>
+          <properties field="result" class="Q13.MemberLogin" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Q13/MemberLogin.java</url>
+          <line>8</line>
+          <properties class="Q13.MemberLogin" method="method">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

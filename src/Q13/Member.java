@@ -1,16 +1,27 @@
 package Q13;
 
 public class Member {
+    public static void main(String[] args) {
+        MemberLogin login = new MemberLogin();
+        login.method();
+
+
+    }
     private String name;
     String id;
     private String password;
     int age;
 
-    Member(String name, String id){
+    Member(String name, String id, String password){
         this.name = name;
         this.id = id;
+        this.password = password;
     }
 
-    Member user1 = new Member("홍길동", "hong");
+    public String getPassword(){
+        return password;
+    }
+
+
 
 }

@@ -3,7 +3,7 @@ package Q13;
 public class Member {
     public static void main(String[] args) {
         MemberLogin login = new MemberLogin();
-        login.method();
+        login.validateAndPrintLoginStatus();
 
 
     }

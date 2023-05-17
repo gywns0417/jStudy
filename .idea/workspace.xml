@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2db4cff1-aa35-4e67-b0be-0b79aced42e9" name="Changes" comment="확인문제 - 리팩토링 및 수정">
+    <list default="true" id="2db4cff1-aa35-4e67-b0be-0b79aced42e9" name="Changes" comment="확인문제13 - 리팩토링">
+      <change afterPath="$PROJECT_DIR$/src/Questions/Q16/PrintOverloading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/Q16/PrintOverloadingNonInstance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/Q18/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/Q19/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/Q19/BankApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q13/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q13/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q13/MemberLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q13/MemberLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q13/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q13/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q13/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/Q13/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q13/MemberLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/Q13/MemberLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q13/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/Q13/MemberService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,21 +43,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/wang/Desktop/Java Coding Practice/jStudy&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindowRun.ShowToolbar": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/wang/Desktop/Java Coding Practice/jStudy",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Questions.Q16" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -77,7 +88,7 @@
       <workItem from="1683619468155" duration="946000" />
       <workItem from="1683783741456" duration="6340000" />
       <workItem from="1684235708793" duration="956000" />
-      <workItem from="1684315510413" duration="300000" />
+      <workItem from="1684315510413" duration="9051000" />
     </task>
     <task id="LOCAL-00001" summary="instance, static 차이 검증">
       <created>1681714350432</created>
@@ -212,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684236659435</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="확인문제13 - 리팩토링">
+      <created>1684315991434</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1684315991435</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +267,7 @@
     <MESSAGE value="Singleton Pattern 예제" />
     <MESSAGE value="확인문제 - Member 기본 클래스들 구현" />
     <MESSAGE value="확인문제 - 리팩토링 및 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="확인문제 - 리팩토링 및 수정" />
+    <MESSAGE value="확인문제13 - 리팩토링" />
+    <option name="LAST_COMMIT_MESSAGE" value="확인문제13 - 리팩토링" />
   </component>
 </project>

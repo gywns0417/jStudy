@@ -1,4 +1,4 @@
-package Q13;
+package Questions.Q13;
 
 public class Member {
     public static void main(String[] args) {

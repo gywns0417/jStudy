@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2db4cff1-aa35-4e67-b0be-0b79aced42e9" name="Changes" comment="확인문제 19 - 계좌 생성, 계좌 목록, 예금, 출금, 종료 기능 전체 구현 완료">
-      <change afterPath="$PROJECT_DIR$/src/Inheritance/Exam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inheritance/Exam2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inheritance/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inheritance/SmartPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inheritance/SmartPhoneExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/Q19/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/Q19/Account.java" afterDir="false" />
+    <list default="true" id="2db4cff1-aa35-4e67-b0be-0b79aced42e9" name="Changes" comment="확인문제 19 - 주석 첨부&#10;상속 예제">
+      <change afterPath="$PROJECT_DIR$/src/Inheritance/Super/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inheritance/Super/SmartPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inheritance/Super/SmartPhoneExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inheritance/Super/SuperCall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inheritance/Super/SuperExam.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +56,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Inheritance.Super" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Questions.Q16" />
     </key>
@@ -90,7 +91,7 @@
       <workItem from="1684379193153" duration="4032000" />
       <workItem from="1684496013816" duration="1433000" />
       <workItem from="1684501276953" duration="1291000" />
-      <workItem from="1684736189868" duration="5115000" />
+      <workItem from="1684736189868" duration="5891000" />
     </task>
     <task id="LOCAL-00001" summary="instance, static 차이 검증">
       <created>1681714350432</created>
@@ -246,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684740221016</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="확인문제 19 - 주석 첨부&#10;상속 예제">
+      <created>1684748430561</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1684748430561</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,7 +294,8 @@
     <MESSAGE value="확인문제13 - 리팩토링" />
     <MESSAGE value="확인문제 13 - 리팩토링&#10;확인문제 18 - 싱글톤 예제&#10;확인문제 19 - 계좌 생성, 출력문, 계좌 목록 출력 구현" />
     <MESSAGE value="확인문제 19 - 계좌 생성, 계좌 목록, 예금, 출금, 종료 기능 전체 구현 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="확인문제 19 - 계좌 생성, 계좌 목록, 예금, 출금, 종료 기능 전체 구현 완료" />
+    <MESSAGE value="확인문제 19 - 주석 첨부&#10;상속 예제" />
+    <option name="LAST_COMMIT_MESSAGE" value="확인문제 19 - 주석 첨부&#10;상속 예제" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

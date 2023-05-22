@@ -13,18 +13,25 @@ public class Account {
         this.balance = balance;
     }
 
-    public void setBalance(int balance) {
-        if(balance > MAX_BALANCE || balance < MIN_BALANCE){}
+    public void setDepositBalance(int balance) {
+        if(balance > MAX_BALANCE || balance < MIN_BALANCE){
+            System.out.println("한번에 가능한 입금액은 0~1,000,000 입니다.");
+        }
             else{
-            this.balance = balance;
+            this.balance = this.balance + balance;
         }
     }
-    public void setId(String id){
-        this.id = id;
-    }
 
-    public void setOwner(String owner) {
-        this.owner = owner;
+    public void setWithdrawBalance(int balance){
+        if(balance > MAX_BALANCE || balance < MIN_BALANCE){
+            System.out.println("한번에 가능한 출금액은 0~1,000,000 입니다.");
+        }
+        else{
+            this.balance = this.balance - balance;
+        }
+    }
+    public String getId() {
+        return id;
     }
 
     @Override

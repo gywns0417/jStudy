@@ -18,7 +18,10 @@ public class Account {
             System.out.println("한번에 가능한 입금액은 0~1,000,000 입니다.");
         }
             else{
-            this.balance = this.balance + balance;
+            this.balance = this.balance + balance; //this.balance는 이 메소드를 호출하는 객체의 'balance' 필드 값을 말한다.
+                                                   //즉, list[x] = new Account(id, owner, balance); 로 각각의 객체들이
+                                                   //각각의 id, owner, balance 값을 갖고 있기에, 필드 값은 하나지만 객체가 여러개 이므로
+                                                   //이 메소드는 이 코드를 호출한 특정 list[x] 객체의 balance 값을 수정한다.
         }
     }
 

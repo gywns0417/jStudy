@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2db4cff1-aa35-4e67-b0be-0b79aced42e9" name="Changes" comment="확인문제13 - 리팩토링">
-      <change afterPath="$PROJECT_DIR$/src/Questions/Q16/PrintOverloading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/Q16/PrintOverloadingNonInstance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/Q18/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/Q19/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/Q19/BankApplication.java" afterDir="false" />
+    <list default="true" id="2db4cff1-aa35-4e67-b0be-0b79aced42e9" name="Changes" comment="확인문제 19 - 계좌 생성, 계좌 목록, 예금, 출금, 종료 기능 전체 구현 완료">
+      <change afterPath="$PROJECT_DIR$/src/Inheritance/Exam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inheritance/Exam2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inheritance/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inheritance/SmartPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inheritance/SmartPhoneExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q13/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/Q13/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q13/MemberLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/Q13/MemberLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q13/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/Q13/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Questions/Q19/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/Q19/Account.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,22 +41,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ToolWindowRun.ShowToolbar": "false",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/wang/Desktop/Java Coding Practice/jStudy",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ToolWindowRun.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/wang/Desktop/Java Coding Practice/jStudy&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Questions.Q16" />
@@ -88,7 +86,11 @@
       <workItem from="1683619468155" duration="946000" />
       <workItem from="1683783741456" duration="6340000" />
       <workItem from="1684235708793" duration="956000" />
-      <workItem from="1684315510413" duration="9051000" />
+      <workItem from="1684315510413" duration="9361000" />
+      <workItem from="1684379193153" duration="4032000" />
+      <workItem from="1684496013816" duration="1433000" />
+      <workItem from="1684501276953" duration="1291000" />
+      <workItem from="1684736189868" duration="5115000" />
     </task>
     <task id="LOCAL-00001" summary="instance, static 차이 검증">
       <created>1681714350432</created>
@@ -230,7 +232,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684315991435</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="확인문제 13 - 리팩토링&#10;확인문제 18 - 싱글톤 예제&#10;확인문제 19 - 계좌 생성, 출력문, 계좌 목록 출력 구현">
+      <created>1684324896053</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1684324896053</updated>
+    </task>
+    <task id="LOCAL-00022" summary="확인문제 19 - 계좌 생성, 계좌 목록, 예금, 출금, 종료 기능 전체 구현 완료">
+      <created>1684740221016</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1684740221016</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,6 +284,119 @@
     <MESSAGE value="확인문제 - Member 기본 클래스들 구현" />
     <MESSAGE value="확인문제 - 리팩토링 및 수정" />
     <MESSAGE value="확인문제13 - 리팩토링" />
-    <option name="LAST_COMMIT_MESSAGE" value="확인문제13 - 리팩토링" />
+    <MESSAGE value="확인문제 13 - 리팩토링&#10;확인문제 18 - 싱글톤 예제&#10;확인문제 19 - 계좌 생성, 출력문, 계좌 목록 출력 구현" />
+    <MESSAGE value="확인문제 19 - 계좌 생성, 계좌 목록, 예금, 출금, 종료 기능 전체 구현 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="확인문제 19 - 계좌 생성, 계좌 목록, 예금, 출금, 종료 기능 전체 구현 완료" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Questions/Q19/BankApplication.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Questions/Q19/BankApplication.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Questions/Q19/BankApplication.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Questions/Q19/BankApplication.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Questions/Q19/BankApplication.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Questions/Q19/BankApplication.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Questions/Q19/BankApplication.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Questions/Q19/BankApplication.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Questions/Q19/BankApplication.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Questions/Q19/BankApplication.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Questions/Q19/BankApplication.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Questions/Q19/BankApplication.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Questions/Q19/BankApplication.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Questions/Q19/BankApplication.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Questions/Q19/BankApplication.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Questions/Q19/BankApplication.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Questions/Q19/BankApplication.java</url>
+          <line>114</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Questions/Q19/BankApplication.java</url>
+          <line>115</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Questions/Q19/BankApplication.java</url>
+          <line>117</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Questions/Q19/BankApplication.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Questions/Q19/BankApplication.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

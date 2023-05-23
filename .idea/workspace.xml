@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2db4cff1-aa35-4e67-b0be-0b79aced42e9" name="Changes" comment="상속 super() 예제">
-      <change afterPath="$PROJECT_DIR$/src/MethodOverride/Airplane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MethodOverride/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MethodOverride/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MethodOverride/ComputerExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MethodOverride/SupersonicAirplane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MethodOverride/SupersonicAirplaneExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2db4cff1-aa35-4e67-b0be-0b79aced42e9" name="Changes" comment="메소드 오버라이딩 예제" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +86,7 @@
       <workItem from="1684496013816" duration="1433000" />
       <workItem from="1684501276953" duration="1291000" />
       <workItem from="1684736189868" duration="6523000" />
-      <workItem from="1684751366428" duration="1406000" />
+      <workItem from="1684751366428" duration="1493000" />
     </task>
     <task id="LOCAL-00001" summary="instance, static 차이 검증">
       <created>1681714350432</created>
@@ -264,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684749192472</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="메소드 오버라이딩 예제">
+      <created>1684755635118</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1684755635118</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,7 +305,8 @@
     <MESSAGE value="확인문제 19 - 계좌 생성, 계좌 목록, 예금, 출금, 종료 기능 전체 구현 완료" />
     <MESSAGE value="확인문제 19 - 주석 첨부&#10;상속 예제" />
     <MESSAGE value="상속 super() 예제" />
-    <option name="LAST_COMMIT_MESSAGE" value="상속 super() 예제" />
+    <MESSAGE value="메소드 오버라이딩 예제" />
+    <option name="LAST_COMMIT_MESSAGE" value="메소드 오버라이딩 예제" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

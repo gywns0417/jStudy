@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2db4cff1-aa35-4e67-b0be-0b79aced42e9" name="Changes" comment="메소드 오버라이딩 예제" />
+    <list default="true" id="2db4cff1-aa35-4e67-b0be-0b79aced42e9" name="Changes" comment="fianl 메소드 예제">
+      <change afterPath="$PROJECT_DIR$/src/Protected/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Protected/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Protected/package2/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Protected/package2/D.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,6 +92,7 @@
       <workItem from="1684501276953" duration="1291000" />
       <workItem from="1684736189868" duration="6523000" />
       <workItem from="1684751366428" duration="1493000" />
+      <workItem from="1684835336990" duration="661000" />
     </task>
     <task id="LOCAL-00001" summary="instance, static 차이 검증">
       <created>1681714350432</created>
@@ -263,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684755635118</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="fianl 메소드 예제">
+      <created>1684835517114</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1684835517114</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +294,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="instance, static 차이 검증" />
     <MESSAGE value="NullPointerException 예제 테스트" />
     <MESSAGE value="String 기본 메소드 예제" />
     <MESSAGE value="Enum 타입 예제, 테스트" />
@@ -306,7 +318,8 @@
     <MESSAGE value="확인문제 19 - 주석 첨부&#10;상속 예제" />
     <MESSAGE value="상속 super() 예제" />
     <MESSAGE value="메소드 오버라이딩 예제" />
-    <option name="LAST_COMMIT_MESSAGE" value="메소드 오버라이딩 예제" />
+    <MESSAGE value="fianl 메소드 예제" />
+    <option name="LAST_COMMIT_MESSAGE" value="fianl 메소드 예제" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

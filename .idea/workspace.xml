@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2db4cff1-aa35-4e67-b0be-0b79aced42e9" name="Changes" comment="다형성 예제">
-      <change afterPath="$PROJECT_DIR$/src/Polymorphism/Parameter/Bus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Polymorphism/Parameter/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Polymorphism/Parameter/DriverExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Polymorphism/Parameter/Taxi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Polymorphism/Parameter/Vehicle.java" afterDir="false" />
+    <list default="true" id="2db4cff1-aa35-4e67-b0be-0b79aced42e9" name="Changes" comment="매개변수 다형성 예제">
+      <change afterPath="$PROJECT_DIR$/src/Polymorphism/InstanceOf/InstanceOfExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Polymorphism/InstanceOf/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Polymorphism/InstanceOf/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +92,9 @@
       <workItem from="1684501276953" duration="1291000" />
       <workItem from="1684736189868" duration="6523000" />
       <workItem from="1684751366428" duration="1493000" />
-      <workItem from="1684835336990" duration="4122000" />
+      <workItem from="1684835336990" duration="4221000" />
+      <workItem from="1685078989354" duration="597000" />
+      <workItem from="1685356898210" duration="1973000" />
     </task>
     <task id="LOCAL-00001" summary="instance, static 차이 검증">
       <created>1681714350432</created>
@@ -305,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684838739522</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="매개변수 다형성 예제">
+      <created>1684839540878</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1684839540878</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,7 +331,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="생성자, this 예제 2" />
     <MESSAGE value="생성자 오버로딩 및 생성자 호출 예제 테스트" />
     <MESSAGE value="클래스, 메소드 외부 객체에서 호출 테스트 예제" />
     <MESSAGE value="생성자 오버로딩을 사용한 외부 객체 호출 예제" />
@@ -348,7 +355,8 @@
     <MESSAGE value="클래스 자동 타입 변환 예제" />
     <MESSAGE value="강제 타입 변환 예제" />
     <MESSAGE value="다형성 예제" />
-    <option name="LAST_COMMIT_MESSAGE" value="다형성 예제" />
+    <MESSAGE value="매개변수 다형성 예제" />
+    <option name="LAST_COMMIT_MESSAGE" value="매개변수 다형성 예제" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

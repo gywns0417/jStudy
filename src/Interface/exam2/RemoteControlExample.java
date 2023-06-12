@@ -16,5 +16,8 @@ public class RemoteControlExample {
         rc.turnOn();
         rc.setVolume(5);
         rc.turnOff();
+
+        rc.setMute(true);
+        rc.setMute(false);
     }
 }

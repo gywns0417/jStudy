@@ -19,5 +19,7 @@ public class RemoteControlExample {
 
         rc.setMute(true);
         rc.setMute(false);
+        //정적 메소드 호출
+        RemoteControl.changeBattery();
     }
 }

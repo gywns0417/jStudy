@@ -18,8 +18,8 @@ public class Chatting {
             public void start() {
                 while(true) {
                     String inputData = "안녕하세요";
-                    String message = "[" + nickName + "] " + inputData;
-                    sendMessage(message);
+                    //String message = "[" + nickName + "] " + inputData;
+                    //sendMessage(message);
                 }
             }
         };

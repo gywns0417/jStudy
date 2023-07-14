@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="twoDimensionArray:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/twoDimensionArray_jar</output-path>
+    <root id="archive" name="twoDimensionArray.jar">
+      <element id="module-output" name="twoDimensionArray" />
+    </root>
+  </artifact>
+</component>
